@@ -1,5 +1,5 @@
 # Custom commands for ffmpeg video conversion (CUDA):
-Here we can find a set of commands to use in video conversion with ffmpeg and common configurations (resolution, bitrate, encoding, etc)
+Here we can find a set of commands to use in video conversion with [ffmpeg](https://ffmpeg.org/) and common configurations (resolution, bitrate, encoding, etc), some custom commands to [transcode using cuda](https://developer.nvidia.com/blog/nvidia-ffmpeg-transcoding-guide/) and [AMD AMF](https://gpuopen.com/advanced-media-framework/)
 
 ## Codecs (CUDA):
 ### Decoders for cuda:
@@ -19,7 +19,7 @@ Here we can find a set of commands to use in video conversion with ffmpeg and co
     2. hevc_nvenc
     3. libsvtav1 -> AV1 (SVT-AV1 Encoder and Decoder)
 
-### Encoder for amd:
+### Encoder for AMD (up to 2x faster compared to libx264 | libx265):
     1. h264_amf
     2. hevc_amf
 
